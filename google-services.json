@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "700265374795",
+    "firebase_url": "https://accouticapp.firebaseio.com",
+    "project_id": "accouticapp",
+    "storage_bucket": "accouticapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700265374795:android:503b87b542346d26",
+        "android_client_info": {
+          "package_name": "com.vibrations.k2user.accoutic_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700265374795-8886r89ipkdk7ei03a90tkpfkugo2ji7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibrations.k2user.accoutic_app",
+            "certificate_hash": "b9dddbe36985c99ee7669329443109fff7d7c710"
+          }
+        },
+        {
+          "client_id": "700265374795-kbchcv77gep5em98vrtraeivpag1s3d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqk66wbERwqcyhI7KPOwyDyhJPRvTsJU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700265374795-kbchcv77gep5em98vrtraeivpag1s3d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700265374795:android:2b27c2ada513705c",
+        "android_client_info": {
+          "package_name": "com.vibrations.k2user.invv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700265374795-i8mlq03ori9tj6kg4lmknb06es7pajq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibrations.k2user.invv",
+            "certificate_hash": "b9dddbe36985c99ee7669329443109fff7d7c710"
+          }
+        },
+        {
+          "client_id": "700265374795-kbchcv77gep5em98vrtraeivpag1s3d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqk66wbERwqcyhI7KPOwyDyhJPRvTsJU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700265374795-kbchcv77gep5em98vrtraeivpag1s3d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "358938176605",
+    "firebase_url": "https://invv-435d6.firebaseio.com",
+    "project_id": "invv-435d6",
+    "storage_bucket": "invv-435d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358938176605:android:2b27c2ada513705c",
+        "android_client_info": {
+          "package_name": "com.vibrations.k2user.invv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358938176605-81k3fcmg0ab50vqgpj1vrnfhldeupvu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibrations.k2user.invv",
+            "certificate_hash": "f583954bdf8f8a29b5a728595c3d1708d12b846d"
+          }
+        },
+        {
+          "client_id": "358938176605-05s05k9fcekf1vbl5knihuiks9po57a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibrations.k2user.invv",
+            "certificate_hash": "784118de3a722aaa0f83ee8e4483c28b4a1ba676"
+          }
+        },
+        {
+          "client_id": "358938176605-v2d153l2lu77eo8s1p55qk5muv54mh8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLWoQ9mnXVoCxGYXImKADz2So7_pLKFWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358938176605-v2d153l2lu77eo8s1p55qk5muv54mh8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
