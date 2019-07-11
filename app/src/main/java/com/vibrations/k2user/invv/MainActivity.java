@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "User Firebase authentication failed", Toast.LENGTH_SHORT).show();
                             //Snackbar.make(findViewById(R.id.main_layout), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
                             //  updateUI(null);
+                            signOut();
                         }
 
                         // ...
@@ -144,5 +145,11 @@ public class MainActivity extends AppCompatActivity {
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+    }
+     private void signOut() {
+
+        mGoogleSignInClient.signOut();
+        signIn();
+
     }
 }
