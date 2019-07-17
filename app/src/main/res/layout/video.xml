@@ -1,45 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:baselineAligned="false"
-    android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
 
     <LinearLayout
-        android:id="@+id/camera_preview"
+        android:id="@+id/lay1"
+        android:orientation="vertical"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:orientation="horizontal" />
-
-    <LinearLayout
-        android:id="@+id/buttonsLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
-        android:orientation="horizontal"
-        android:layout_marginTop="16dp">
+        android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_ChangeCamera"
+            android:id="@+id/recordButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Switch Camera" />
+            android:text="Record"/>
+
 
         <Button
-            android:id="@+id/button_capture"
+            android:id="@+id/selectButton"
+            android:layout_marginTop="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capture/Stop" />
+            android:text="Select"/>
+
     </LinearLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recyclerviewVideo"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:scrollbars="vertical"
-
-        ></android.support.v7.widget.RecyclerView>
-
-</LinearLayout>
+</RelativeLayout>

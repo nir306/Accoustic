@@ -18,6 +18,7 @@ public class iNVV extends AppCompatActivity {
 
     private Button accoutic, vibration, video;
     public static final int REQUEST_AUDIO_PERMISSION_CODE = 1;
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
